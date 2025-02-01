@@ -1,0 +1,295 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Droid Arabic Kufi', serif;
+
+}
+
+body{
+    height: 175vh;
+    background: linear-gradient(to bottom, rgb(44, 43, 38) 0%, rgb(255, 200, 0) 55%,  rgb(39, 5, 89) 54%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.list{
+    /* margin: 20px 0; */
+    background-color: rgb(147, 147, 145);
+    padding: 10px 0;
+}
+/* .nos{
+    background-color: #303030;
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 60% 100%, 0 100%);
+
+} */
+.welcom img{
+    width: 100%;
+}
+
+.container {
+    height: 500px;
+    /* background-color: rgb(251, 220, 47); */
+    /* display: flex; */
+    line-height: 1.5;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.341);
+    font-size: larger;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    margin: auto;
+    padding: 10px;
+    
+    /* text-align: center; */
+}
+
+
+.text h2{
+    margin: 20px 0;
+}
+.text button{
+    width: 100px;
+    margin: 20px 0 0;
+    border: none;
+    outline: none;
+    padding: 4px 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #30303099;
+    color: rgb(209, 255, 27);
+    cursor: pointer;
+}
+
+.text button:hover{
+    background-color: #161212;
+    color: rgb(204, 255, 0);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.441);
+}
+.highlight {
+    color: rgba(185, 185, 51, 0.751);
+    font-weight: bold; 
+}
+
+.text h5{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #3030305d;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.441);
+    /* text-align: left; */
+    padding: 10px;
+    width: 80%;
+    color: antiquewhite;
+}
+
+
+.image img {
+    height: 400px;
+    border-radius: 0  120px 0 120px;
+}
+.image{
+    overflow: visible;
+
+}
+/* ----------------------- */
+.clubs{
+    /* background-color: #b9111186; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 1.2;
+}
+
+.cari{
+    width: 80%;
+    /* background-color: rgb(250, 235, 215); */
+    margin: 20px 20px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cari img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.cari .writ{
+    width: 40%;
+    text-align: left;
+    color: #1612128e;
+    /* background-color: #cf27275e; */
+}
+/* ------- */
+
+
+
+.developers-row {
+    margin: 450px 0 0;
+    display: flex; /* عرض العناصر في صف واحد */
+    justify-content: center; /* توسيط العناصر أفقيًا */
+    overflow-x: auto; /* إضافة شريط تمرير أفقي إذا لزم الأمر */
+    white-space: nowrap; /* منع العناصر من الانتقال إلى سطر جديد */
+}
+.developer {
+    /* flex: 0 0 auto; منع العناصر من التمدد أو الانكماش */
+    width: 250px; /* عرض ثابت لكل عنصر */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* لجعل العنصر الداخلي يظهر بشكل صحيح */
+    overflow: hidden;
+}
+.developer img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.developer h2 {
+    color: #555;
+    font-size: 17px;
+}
+.developer p {
+    color: #605f5f;
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+
+/* ------------------------------------------ */
+
+
+
+.form-container {
+    /* background-color:  rgba(39, 5, 89, 0.574); */
+    margin: 70px auto 0;
+    padding: 20px;
+    border: none;
+    outline: none;
+    text-align: right;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #720a0a;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff0000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #2980b9;
+}
+
+.form-group input ,
+.form-group select,
+.form-group textarea
+{
+    border: none; /* إزالة الحدود */
+    outline: none; /* إزالة الحد الخارجي */
+    /* box-shadow: 0px 3px  6px rgba(0, 0, 0, 0.259) ; */
+    border-bottom: 2px solid rgb(146, 146, 146);
+}
+
+input:focus {
+    border: none; /* إزالة الحدود */
+    outline: none; /* إزالة الحد الخارجي */
+}
+
+
+
+
+
+/* ---------------------   phone ------------ */
+@media (max-width: 768px) {
+    body{
+        height: 156vh;
+    /* background: linear-gradient(to bottom, rgb(165, 57, 57) 62%, rgb(26, 26, 70) 50%); */
+    background: linear-gradient(to bottom, rgb(44, 43, 38) 0%, rgb(255, 200, 0) 61%,  rgb(39, 5, 89) 54%);
+    background-repeat: no-repeat;
+
+    }
+    .container {
+       height: 390px;
+       line-height: 1.5;
+        /* background-image: url(../imags/image\ copy\ 2.png); */
+        /* background-size: 100%; */
+        background-repeat: no-repeat;
+        /* background-position: center; */
+    }
+    
+     .image img{
+        width: 320px;
+        height: 320px;
+     }
+     .text h5{
+        background-color: #3030305d;
+        backdrop-filter: blur(5px);
+        border-radius: 12px;
+        padding: 20px;
+        /* filter: blur(8px); */
+        color: #ffffffbe;
+     }
+     .developer p{
+        font-size: 9px;
+    }
+    .developer h2{
+        font-size: 14px;
+    }
+}
+
+
+/* @media (max-width: 768px) {
+.developer h2{
+    font-size: 19px;
+}
+} */
+
+
+
