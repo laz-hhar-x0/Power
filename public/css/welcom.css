@@ -247,7 +247,7 @@ input:focus {
 
 
 /* ---------------------   phone ------------ */
-@media (max-width: 668px) {
+@media (max-width: 968px) {
     body{
         width: 100%;
         height: 186vh;
